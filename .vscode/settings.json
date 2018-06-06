@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "USE_GITIGNORE": true,
+    "**/*.css": {
+      "when": "$(basename).scss"
+    },
+    "**/*.map": true,
+    "run": true,
+    "logs": true,
+    "out": true
+  }
+}
